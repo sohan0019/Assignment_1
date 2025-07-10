@@ -59,7 +59,78 @@ header .logo{
   font-weight: bold;
   font-family: "Raleway", sans-serif;
   margin-bottom: 37px;
+  color: #252432;
 }
 .txt-title button{
   margin: auto;
+}
+.main{
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: #F5F8FF;
+}
+.action{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 115px;
+  padding-bottom: 115px;
+  align-items: center;
+}
+.action img{
+  border-radius: 48px;
+}
+.action-txt{
+  width: 515px;
+}
+.action-txt h3{
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: #252432;
+  margin-bottom: 0;
+  padding-bottom: 23px;
+}
+.action-txt h5{
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  color: #252432;
+  opacity: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 23px;
+}
+.productive_user{
+  background-color: #E5E7FF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 25px;
+  margin-bottom: 135px;
+
+}
+.usr_title{
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  color: #252432;
+}
+.card{
+  display: flex;
+  gap: 170px;
+  justify-content: center;
+  text-align: center;
+}
+.card h3{
+  font-size: 80px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  color: #4E47FF;
+  margin: 0;
+}
+.card h5{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  opacity: 50%;
+  margin: 0;
 }
