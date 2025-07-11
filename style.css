@@ -67,6 +67,7 @@ header .logo{
 .main{
   padding-left: 150px;
   padding-right: 150px;
+  padding-bottom: 15px;
   background-color: #F5F8FF;
 }
 .action{
@@ -133,4 +134,142 @@ header .logo{
   font-family: "Inter", sans-serif;
   opacity: 50%;
   margin: 0;
+}
+.review{
+  padding-bottom: 135px;
+}
+.review .rev-title{
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: #252432;
+  text-align: center;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.rev{
+  background-color: white;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 15px;
+}
+.review .rev-img{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.review h3{
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 8px;
+}
+.review h4{
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 24px;
+}
+.review h5{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  color: #757575;
+  margin: 0;
+}
+.review h6{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #B3B3B3;
+  margin: 0;
+}
+.identity .identity-img{
+  border-radius: 50%;
+}
+.review .identity{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding-bottom: 24px;
+}
+.review .container{
+  display: flex;
+  gap: 20px;
+}
+.ready{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+.ready h2{
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+.ready h5{
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #757575;
+}
+.ready img{
+  border-radius: 50px;
+}
+.newsletter{
+  padding-top: 95px;
+  padding-bottom: 95px;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newsletter h2{
+  font-size: 110px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  max-width: 600px;
+}
+.newsletter .newsletter-form form{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+.newsletter input{
+  width: 500px;
+  padding: 20px 32px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: none;
+  font-size: 20px;
+  
+}
+.newsletter lable{
+  font-size: 18px;
+  font-weight: 500;
+}
+.newsletter textarea{
+  padding: 20px 32px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  border: none;
+  font-size: 20px;
+  resize: none;
 }
