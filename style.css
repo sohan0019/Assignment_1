@@ -26,7 +26,7 @@ body{
   
 }
 .banner{
-  background-image: url(/Assets/Hero-bg.png);
+  background-image: url(./Assets/Hero-bg.png);
   padding-left: 150px;
   padding-top: 0px;
   padding-right: 150px;
@@ -260,7 +260,7 @@ header .logo{
   font-size: 20px;
   
 }
-.newsletter lable{
+.newsletter label{
   font-size: 18px;
   font-weight: 500;
 }
@@ -272,4 +272,43 @@ header .logo{
   border: none;
   font-size: 20px;
   resize: none;
+}
+footer{
+  background-color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 455px;
+  padding-right: 455px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+footer h3{
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+  margin: 0;
+}
+footer p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #8987A1;
+  width: 530px;
+  margin: auto;
+  padding-top: 8px;
+}
+footer .group{
+  display: flex;
+  justify-content: space-evenly;
+  width: 530px;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8987A1;
+}
+.group a{
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+  color: #656375;
+  padding-top: 20px;
 }
