@@ -9,8 +9,6 @@
   font-style: normal;
 }
 
-
-
 button{
   font-size: 16px;
   font-weight: bold;
@@ -22,9 +20,14 @@ button{
   border: none;
   cursor: pointer;
 }
-body{
-  
+button:hover{
+  font-size: 17px;
+  background-color: #fff;
+  color: black;
+  border: 2px solid #4E47FF;
+  transition: 0.5s;
 }
+
 .banner{
   background-image: url(./Assets/Hero-bg.png);
   padding-left: 150px;
@@ -114,6 +117,8 @@ header .logo{
   font-weight: bold;
   text-align: center;
   color: #252432;
+  padding: 0;
+  margin: 0;
 }
 .card{
   display: flex;
@@ -229,6 +234,7 @@ header .logo{
 }
 .ready img{
   border-radius: 50px;
+  margin-top: 10px;
 }
 .newsletter{
   padding-top: 95px;
